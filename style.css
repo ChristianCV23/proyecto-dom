@@ -1,0 +1,113 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 18px;
+  }
+  
+  .search-bar {
+    width: 60%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .container {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .filters {
+    width: 20%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .filters ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .filters a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .filters a:hover {
+    text-decoration: underline;
+  }
+  
+  .products {
+    width: 75%;
+  }
+  
+  .product-section {
+    margin-bottom: 40px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .product-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .filters, .products {
+      width: 100%;
+    }
+  
+    .search-bar {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Productos Electrónicos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tienda Electrónica Online</h1>
+    <p>Encuentra lo mejor en tecnología</p>
+    <input type="text" id="search" placeholder="Buscar producto..." class="search-bar">
+  </header>
+
+  <div class="container">
+    <!-- Sección de filtros -->
+    <section class="filters">
+      <h2>Filtrar por Producto</h2>
+      <ul id="sections-list">
+        <li><a href="#teclado">Teclados</a></li>
+        <li><a href="#raton">Ratones</a></li>
+        <li><a href="#monitor">Monitores</a></li>
+        <li><a href="#silla">Sillas Gaming</a></li>
+        <li><a href="#auriculares">Auriculares</a></li>
+        <li><a href="#webcam">Webcams</a></li>
+        <li><a href="#altavoces">Altavoces</a></li>
+      </ul>
+    </section>
+
+    <!-- Sección de productos -->
+    <section class="products" id="products-container">
+      <div class="product-section" id="teclado">
+        <h2>Teclados</h2>
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjaOZ2iWmNM8qYL77leKa63CP7Vt15GJVPMw&s" alt="Teclado RGB">
+          <h3>Teclado Mecánico RGB</h3>
+          <p><strong>Precio:</strong> 200€</p>
+          <p><a href="https://www.pccomponentes.com/steelseries-apex-pro-mini-wireless-teclado-gaming-mecanico-inalambrico-us" target="_blank">Comprar</a></p>
+        </div>
+      </div>
+
+      <div class="product-section" id="raton">
+        <h2>Ratones</h2>
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ2jud_n6Hxq6whroShKzQ1AqSf2IdKLpUqw&s" alt="Ratón Inalámbrico">
+          <h3>Ratón Inalámbrico</h3>
+          <p><strong>Precio:</strong> 45€</p>
+          <p><a href="https://www.pccomponentes.com/forgeon-vendetta-raton-gaming-rgb-16000dpi-negro" target="_blank">Comprar</a></p>
+        </div>
+      </div>
+
+      <div class="product-section" id="monitor">
+        <h2>Monitores</h2>
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbmVUKVhpqVyBLuucQEh9lbz0nWWGbvFnEMA&s" alt="Monitor 144Hz">
+          <h3>Monitor 27'' 144Hz</h3>
+          <p><strong>Precio:</strong> 1200€</p>
+          <p><a href="https://www.pccomponentes.com/monitor-acer-predator-x34-x-bmiiphuzx-34-oled-ultrawide-qhd-24hz-freesync-premium-pro-curva" target="_blank">Comprar</a></p>
+        </div>
+      </div>
+
+      <div class="product-section" id="silla">
+        <h2>Sillas Gaming</h2>
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4w5YGSXhF1PPcdkSZOcjcoXVR8-SunecZUg&s" alt="Silla Gaming">
+          <h3>Silla Gaming Ergonomica</h3>
+          <p><strong>Precio:</strong> 150€</p>
+          <p><a href="https://subsonic.com/es/dragon-ball/569-silla-gaming-junior-dragon-ball-3701221701758.html" target="_blank">Comprar</a></p>
+        </div>
+      </div>
+
+      <div class="product-section" id="auriculares">
+        <h2>Auriculares</h2>
+        <div class="product-card">
+          <img src="https://cloudbit.es/index.php?media/auriculares-jpg.1206/full" alt="Auriculares Bluetooth">
+          <h3>Auriculares Inalámbricos</h3>
+          <p><strong>Precio:</strong> 50€</p>
+          <p><a href="https://www.pccomponentes.com/newskill-sobek-71-2a-gen-auriculares-gaming-rgb-usb-cancelacion-de-ruido-para-pc-ps4-ps5-mac-negro" target="_blank">Comprar</a></p>
+        </div>
+      </div>
+
+      <div class="product-section" id="webcam">
+        <h2>Webcams</h2>
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrc1k3uOtCqaV2osopWj3AZ_U2KIrAxqqv5g&s" alt="Webcam HD">
+          <h3>Webcam 1080p HD</h3>
+          <p><strong>Precio:</strong> 25€</p>
+          <p><a href="https://www.pccomponentes.com/creative-live-cam-sync-1080p-v2-webcam-usb" target="_blank">Comprar</a></p>
+        </div>
+      </div>
+
+      <div class="product-section" id="altavoces">
+        <h2>Altavoces</h2>
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwv0A_sSNR2tAecTdi1DQB7eAkh4Sq-5U-g&s" alt="Altavoces Bluetooth">
+          <h3>Altavoces Bluetooth</h3>
+          <p><strong>Precio:</strong> 20€</p>
+          <p><a href="https://www.pccomponentes.com/tempest-m20-rgb-master-20-altavoces-gaming-con-bluetooth-negros" target="_blank">Comprar</a></p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
